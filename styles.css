@@ -1,70 +1,71 @@
 :root {
-  --main-bg-color: #be87c4;
-  --light-color:#F1F1F1;
-  --dark-color:#333;
-  --accent1:#be87c4;
-  --accent2:#da9571;
-  --accent3:#dd6e6e;
+	--main-bg-color: #be87c4;
+	--light-color:#F1F1F1;
+	--dark-color:#333;
+	--accent1:#be87c4;
+	--accent2:#da9571;
+	--accent3:#dd6e6e;
 }
 
 body{
-  padding: 5px;
-  background-color: var(--main-bg-color);
+	padding: 5px;
+	background-color: var(--main-bg-color);
 }
 
 .header {
-  background-color: var(--light-color);
-  text-align: center;
-  padding: 20px;
+	background-color: var(--light-color);
+	text-align: center;
+	padding: 20px;
 }
 
 /* The navbar container */
 .topnav {
-  overflow: hidden;
-  background-color: var(--dark-color);
+	overflow: hidden;
+	background-color: var(--dark-color);
 }
 
 /* Navbar links */
 .topnav a {
-  float: left;
-  display: block;
-  color: var(--light-color);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: left;
+	display: block;
+	color: var(--light-color);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: var(--accent2);
+	background-color: var(--accent2);
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 5px;
-  background-color: var(--accent3);
-  padding-top: 5px;
-  padding-bottom: 5px;
+	display: grid;
+	width: auto;
+	grid-gap: 1%;
+	grid-template-columns: 70% auto;
+	background-color: var(--accent3);
+	padding: 1%;
 }
 
 .grid-container > div {
-  background-color: var(--light-color);
-  text-align: center;
-  padding: 20px 0;
+	background-color: var(--light-color);
+	text-align: center;
+	padding: 20px 0;
 }
 
 .item1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
+}
+
+.item2 {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--dark-color);
-  color: white;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--dark-color);
+	color: white;
+	text-align: center;
 }
