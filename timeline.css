@@ -5,10 +5,6 @@
 	--accent1:#be87c4;
 	--accent2:#da9571;
 	--accent3:#dd6e6e;
-	--dotted: 
-		border-style: dotted; 
-		border-color: var(--accent3); 
-		border-width: 15px;
 }
 
 body{
@@ -43,20 +39,13 @@ body{
 	background-color: var(--accent2);
 }
 
-.spacer {
-	padding-top: 3%;
-	text-align: center;
-}
-
-
 .grid-container {
 	display: grid;
 	width: auto;
 	grid-gap: 1%;
-	grid-template-columns: 70% auto;
 	grid-template-rows: 300vh;
-	padding: 1%;
 	background-color: var(--accent3);
+	padding: 1%;
 }
 
 .grid-container > div {
@@ -71,8 +60,15 @@ body{
 .item2 {
 }
 
-hr.dot{
-	border-top: 15px dotted var(--accent3)
+.button {
+	background-color: var(--accent1);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 .footer {
