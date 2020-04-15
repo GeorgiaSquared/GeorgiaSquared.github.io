@@ -22,6 +22,10 @@ body{
 	padding: 20px;
 }
 
+.paratext {
+  padding: 50px;
+}
+
 /* The navbar container */
 .topnav {
 	overflow: hidden;
