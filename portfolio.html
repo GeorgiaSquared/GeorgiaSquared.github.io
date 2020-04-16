@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <link rel="stylesheet" href="styles.css">
+
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+</style>
+
 </head>
 <body>
 
 <div class="header">
-  <h1>Header</h1>
+  <p>Georgia Mackay</p>
 </div>
 
 <div class="topnav">
@@ -17,16 +41,67 @@
   <a href="portfolio.html">Portfolio</a>
 </div>
 
-<div class="grid-container">
-  <div class="item1">
-    <h1>Portfolio</h1>
-    <p>lorem ipsum</p>
+
+
+<div class="smaller-grid-container">
+  <div class="item-a">
+    <div class="gallery">
+      <a target="_blank" href="https://www.arcgis.com/apps/webappviewer/index.html?id=9752e5144c5f46248a3fdb6044f810b9&extent=-8466985.2141%2C4771737.0842%2C-8347743.4499%2C4842747.0834%2C102100&hideLayersEncoded=hcoc%3B88lu%3B51tf%3B54kz%3B5gtv%3B4qr7%3B4qcz%3B4dbn%3B4eib%3B3drn%3B3a7n%3Bmh0n%3Bm4rr%3Blsiv%3B611n%3Bboke%3Bbuyx%3Bbo95%3Bbb7t%3Bbiq1%3Bc8sp%3Bccqx%3Bdcp5%3Bedzh%3B1t49%3B1gvd%3Bbeke%3B9ex5%3B97ex%3B9kg9%3B9r61%3B8udl%3B92o9%3B8hc9%3Bcqee%3Barfc%3Ba2xk%3B9xso%3Baa1k%3Betb1%3Blp6e%3Bl5fa%3Bltx2%3Bm27q%3Bmf92%3B6grs%3Bcbr4%3B2rj6%3B2ehu%3B2676%3B1of6%3B1hpe%3B1tya%3B21gi%3Bbfm%3B978u%3Bm6zc%3Bmehk%3Bm1g8%3Bluqg%3Blcyg%3Bl4ns%3Bbviv%3Blqkn%3Bl3nr%3Bm4ef%3Bmgnb%3Bm56v%3Bkf5z%3B2oxl%3B2bw9%3B28c9%3B6p1a%3B27cq%3B2ke2%3B2piy%3B1vwa%3B1zga%3B1iuy%3Bg2un%3Bfrr0%3B2fcm%3B2rli%3B2hpy%3B233q%3B1rna%3B1ely%3B1quu%3Bmye%3Benq%3B112z%3Bqez%3Bfbvj%3Ba9je%3Bag96%3Ba40a%3B9wi2%3Bau2y%3Bakzu%3Bay16%3Bb6bu%3B9h3e%3B94ui%3B1aby%3B15zi%3Btqm%3Bxam%3B3ny%3B8su%3Blu6%3Bfwu%3B1jta%3B1lse%3B1ado%3B1618%3Btsc%3Bxcc%3B3po%3B8uk%3Blvw%3Bfyk%3B1jv0%3B1lu4%3B1aeq%3B162a%3Btte%3Bxde%3B3qq%3B8vm%3Blwy%3Bh76m%3B1wgd%3B1m6l%3B8occ%3B4117%3B5mi8%3B4yvw%3B77uc%3B7k38%3B6eyy%3B8a4q%3B885m%3B77t6%3B2mx2%3B1m6e%3Bxxo%3B1yoc%3B2avi%3B2n0q">
+        <img src="images/1982.jpg" alt="1982 Map" width=auto height=auto>
+      </a>
+      <div class="desc">Project with New Castle County Department of Land Use. Basemap of 1982 I created by manually georeferencing 500+ scanned historical images.</div>
+    </div>
   </div>
-  <div class="item2"><p>lorem ipsum</p></div>
+
+  <div class="item-b">
+    <div class="gallery">
+      <a target="_blank" href="images/MidwestEmo.pdf">
+        <img src="images/MidwestEmo.jpg" alt="Midwest Emo" width=auto height=auto>
+      </a>
+      <div class="desc">Final for 100 Level GIS course. My project investigated the top rated releases of the music genre "Midwest Emo" to determine its geographic center. I also provided information also inclues Temperature and Population to determine potential correlations.</div>
+    </div>
+  </div>
+
+  <div class="item-c">
+    <div class="gallery">
+      <a target="_blank" href="https://dtcc-s-gis.maps.arcgis.com/home/webmap/viewer.html?webmap=6ed228cc7127429191bb0ca5450990d8">
+        <img src="images/120Final.jpg" alt="Wilmington Parking Map" width=auto height=auto>
+      </a>
+      <div class="desc">Final for 100 Level GIS course. The final product is a Web Map that shows the user all available parking information for the city of Wilmington, Delaware. I manually recreated parking maps from available online PDFs to display the potential power of using GIS vs the original PDFs. I also created a Collector Survey and corresponding database to host user-added pictures of parking signs. </div>
+    </div>
+  </div>
+
+  <div class="item-d">
+    <div class="gallery">
+      <a target="_blank" href="images/Refuel.gif">
+        <img src="images/Refuel.jpg" alt="Refuelings Gif" width=auto height=auto>
+      </a>
+      <div class="desc">Personal project completed in 2019. A GIF created to explore the Animate feature in ArcGIS Pro. The data displayed is personal car refuelings from gas stations and a heatmap.</div>
+    </div>
+  </div>
+
+  <div class="item-e">
+    <div class="gallery">
+      <a target="_blank" href="images/CitizenVotingAgePopulation.pdf">
+        <img src="images/CitizenVotingAgePopulation.jpg" alt="Citizen Voting Age Population" width=auto height=auto>
+      </a>
+      <div class="desc">Project for 200 Level GIS course. A map displaying the populations of all US citizens who are eligible to vote.</div>
+    </div>
+  </div>
+
+  <div class="item-f">
+    <div class="gallery">
+      <a target="_blank" href="images/DeVetPop.pdf">
+        <img src="images/DeVetPop.jpg" alt="Delaware Veteran Population" width=auto height=auto>
+      </a>
+      <div class="desc">Project for 200 Level GIS course. A map displaying the populations of all Delaware veterans as well as locations of resources for veterans.</div>
+    </div>
+  </div>
+
 </div>
 
 <div class="footer">
-  <p>Footer</p>
+  <p><a href="https://www.linkedin.com/in/geomackay/" style="color: white">Add me on LinkedIn</a></p>
 </div>
 
 </body>
