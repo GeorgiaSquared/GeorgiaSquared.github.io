@@ -111,6 +111,8 @@ p {
 }
 
 .item-a {
+
+	align-self: center;
     grid-column: 1;
     grid-row: 1;
     display: flex;
